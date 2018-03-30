@@ -1,0 +1,34 @@
+{
+  "name": "mm-status",
+  "version": "1.0.0",
+  "description": "App status resource extension for Matter In Motion",
+  "keywords": [
+    "matter",
+    "in",
+    "motion",
+    "mm",
+    "extension",
+    "resource",
+    "status",
+    "statisitics",
+    "health"
+  ],
+  "author": "Alexey Novikov <v@2dubs.com> (http://2dubs.com)",
+  "license": "MIT",
+  "dependencies": {
+    "luxon": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:matter-in-motion/mm-status.git"
+  },
+  "main": "./index",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "mm-test": "^1.0.0",
+    "nyc": "^11.6.0"
+  },
+  "scripts": {
+    "test": "nyc ava"
+  }
+}
