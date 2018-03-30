@@ -11,7 +11,7 @@ This extension adds a __status__ resource.
 
 ## API
 
-**All requests requires authorisation. All requests should be empty**
+**All requests require authorisation. All requests should be empty**
 
 ### cpu
 
