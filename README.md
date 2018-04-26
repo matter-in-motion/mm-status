@@ -11,7 +11,7 @@ This extension adds a __status__ resource.
 
 ## API
 
-**All requests require authorisation. All requests should be empty**
+**All requests require authorization. All requests should be empty**
 
 ### cpu
 
@@ -57,7 +57,7 @@ returns the process status
 
 * **pid** — number, the PID of the process
 * **memory** — object describing the memory usage of the Node.js process measured in bytes
-* **uptime** — number of seconds the current Node.js process has been running
+* **uptime** — a number of seconds the current Node.js process has been running
 * **argv** — array containing the command line arguments passed when the Node.js process was launched
 
 ### time
