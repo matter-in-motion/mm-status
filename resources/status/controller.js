@@ -5,8 +5,7 @@ const { DateTime } = require('luxon');
 const Controller = function() {
 };
 
-Controller.prototype.__init = function(units) {
-};
+Controller.prototype.__init = function(units) {};
 
 Controller.prototype.cpu = function() {
   const load = os.loadavg();
